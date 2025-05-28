@@ -1,0 +1,8 @@
+numpy
+opencv-python
+scikit-learn
+tensorflow
+h5py
+pickle-mixin
+jupyter
+ipykernel
