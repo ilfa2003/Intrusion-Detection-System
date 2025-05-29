@@ -94,7 +94,7 @@ The final stage applies advanced meta-heuristic optimization:
   - **HHO-KNN**: Enhanced nearest neighbor classification
   - Performance comparison across all methodological stages
 
-![Architecture](Assets\Architecture.png)
+![Architecture](./Assets/Architecture.png)
 
 ## 📊 Dataset
 
