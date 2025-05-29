@@ -145,18 +145,18 @@ pip install -r requirements.txt
 
 ## 📈 Results
 
-![Table 1](Assets\Table_1.png)
+![Table 1](./Assets/Table_1.png)
 
-![Table 2](Assets\Table_2.png)
+![Table 2](./Assets/Table_2.png)
 
-![Table 3](Assets\Table_3_1.png)
-![Table 3](Assets\Table_3_2.png)
+![Table 3](./Assets/Table_3_1.png)
+![Table 3](./Assets/Table_3_2.png)
 
-![Table 4](Assets\Table_4.png)
+![Table 4](./Assets/Table_4.png)
 
 
 ## 📄 Citation
-Refer to the [Report](QRNETV2_report.pdf) for more details.
+Refer to the [Report](./QRNETV2_report.pdf) for more details.
 
 If you use this work in your research, please cite:
 
