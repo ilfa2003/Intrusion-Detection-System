@@ -27,7 +27,7 @@ Our solution leverages lightweight deep learning architectures optimized through
 ```
 /
 ├── 📁 Dataset/
-│   ├── raw/                          # Raw dataset files
+│   ├── Raw/                          # Raw dataset files
 │   └── cleaned_ids2018_sampled.csv   # Preprocessed data
 │   
 ├── 📁 Output-QR/
@@ -47,6 +47,7 @@ Our solution leverages lightweight deep learning architectures optimized through
 └── LICENSE
 ```
 
+📌 *Note: The `cleaned_ids2018_sampled.csv`, `Output-QR` will be created after the preprocessing. The Dataset can be downloaded from the kaggle link.* 
 
 ## 🏗️ Architecture
 
@@ -98,7 +99,7 @@ The final stage applies advanced meta-heuristic optimization:
 ## 📊 Dataset
 
 **CSE-CIC-IDS2018 Dataset**
-- Comprehensive network traffic dataset [Kaggle Link](https://www.kaggle.com/datasets/dhoogla/csecicids2018)
+- Comprehensive network traffic dataset [Kaggle Link](https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv)
 - Multiple attack categories considered for the implementation:
   - Benign
   - DDOS attack-HOIC
@@ -124,8 +125,13 @@ git clone https://github.com/yourusername/Intrusion-Detection-System.git
 cd Intrusion-Detection-System
 ```
 
-2. **Install dependencies**
+2. **Create a virtual enviornmente & Install dependencies**
 ```bash
+#You can change the name of the environment
+python -m venv venv 
+#Activate the environment
+venv\Scripts\activate
+#Install the requirements
 pip install -r requirements.txt
 ```
 
@@ -141,7 +147,7 @@ pip install -r requirements.txt
 
 ![Table 1](Assets\Table_1.png)
 
-![Table 1](Assets\Table_2.png)
+![Table 2](Assets\Table_2.png)
 
 ![Table 3](Assets\Table_3_1.png)
 ![Table 3](Assets\Table_3_2.png)
